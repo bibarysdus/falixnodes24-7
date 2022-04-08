@@ -3,7 +3,8 @@ const mineflayer = require('mineflayer')
 const bot = mineflayer.createBot({
   host: 'bibarys.aternos.me',
   port: 48133,
-  username: 'majo'
+  username: 'majo', 
+  version: '1.12.2'
 })
 
 function lookAtNearestPlayer () {
